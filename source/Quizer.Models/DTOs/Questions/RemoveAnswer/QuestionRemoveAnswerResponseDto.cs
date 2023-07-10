@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quizer.Models.DTOs.Questions.Create
+namespace Quizer.Models.DTOs.Questions.RemoveAnswer
 {
-    public class QuestionCreateReponseDto
+    public  class QuestionRemoveAnswerResponseDto
     {
     }
 }

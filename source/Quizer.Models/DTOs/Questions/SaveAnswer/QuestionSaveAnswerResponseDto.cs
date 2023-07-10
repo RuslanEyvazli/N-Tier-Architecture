@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quizer.Models.DTOs.Questions.Create
+namespace Quizer.Models.DTOs.Questions.SaveAnswer
 {
-    public class QuestionCreateDto
+    public class QuestionSaveAnswerResponseDto
     {
         public string Text { get; set; }
-        public Guid QuestionSetId { get; set; }
-        public byte Point { get; set; }
     }
 }
